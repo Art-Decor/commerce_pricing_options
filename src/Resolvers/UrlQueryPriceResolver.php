@@ -5,6 +5,7 @@ namespace Drupal\commerce_pricing_options\Resolvers;
 use Drupal\commerce\Context;
 use Drupal\commerce\PurchasableEntityInterface;
 use Drupal\commerce_price\Resolver\PriceResolverInterface;
+use Drupal\commerce_price\Price;
 use Symfony\Component\HttpFoundation\RequestStack;
 
 /**
