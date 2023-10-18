@@ -1,0 +1,9 @@
+name: Commerce Pricing Options
+core_version_requirement: ">=8"
+type: module
+description: Commerce Pricing Options
+core: 8.x
+package: Custom
+dependencies:
+  - commerce_store
+  - commerce_product
