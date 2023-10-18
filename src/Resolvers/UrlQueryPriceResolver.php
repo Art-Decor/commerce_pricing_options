@@ -43,7 +43,7 @@ class UrlQueryPriceResolver implements PriceResolverInterface
         // price if it does. By not returning a price, we allow other resolvers to
         // have a chance at returning the price value.
         if ($this->request->query->has('attribute_add')) {
-            return $entity->getPrice()->add($entity->getPrice()->add('100')); //Operations : https://github.com/drupalcommerce/commerce/blob/643bb39620c083f6d52acd41c8170d7f34b40e1c/modules/price/src/Calculator.php#L72
+            return $entity->getPrice()->add($entity->getPrice()->add(new Price('100', 'PLN'))); //Operations : https://github.com/drupalcommerce/commerce/blob/643bb39620c083f6d52acd41c8170d7f34b40e1c/modules/price/src/Calculator.php#L72
         }
     }
 }
