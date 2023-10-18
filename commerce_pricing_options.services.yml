@@ -1,0 +1,6 @@
+services:
+  commerce_pricing_options.url_query_price_resolver:
+    class: Drupal\commerce_pricing_options\Resolvers\UrlQueryPriceResolver
+    arguments: ["@request_stack"]
+    tags:
+      - { name: commerce_price.price_resolver, priority: 600 }

@@ -1,0 +1,22 @@
+{
+  "name": "drupal/commerce_pricing_options",
+  "type": "drupal-module",
+  "description": "Commerce Pricing Options",
+  "keywords": [
+    "Drupal"
+  ],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/commerce_pricing_options",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/commerce_pricing_options",
+    "source": "http://cgit.drupalcode.org/commerce_pricing_options"
+  },
+  "require": {
+    "drupal/commerce": "^2",
+    "drupal/commerce_product": "^2"
+  },
+  "require-dev": {
+    "drupal/config_devel": "~1"
+  }
+}
