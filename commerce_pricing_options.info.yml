@@ -3,7 +3,7 @@ core_version_requirement: ">=8"
 type: module
 description: Commerce Pricing Options
 core: 8.x
-package: Custom
+package: Commerce
 dependencies:
   - commerce_store
   - commerce_product
