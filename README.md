@@ -9,5 +9,5 @@ composer config repositories.art_decor vcs https://github.com/Art-Decor/commerce
 Install:
 
 ```
-composer require drupal/commerce_pricing_options:dev-master
+composer require drupal/commerce_pricing_options:dev-main
 ```
